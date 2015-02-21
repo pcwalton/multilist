@@ -1,0 +1,11 @@
+[package]
+
+name = "multilist"
+version = "0.1.0"
+authors = ["Patrick Walton"]
+
+[lib]
+
+name = "multilist"
+path = "lib.rs"
+
