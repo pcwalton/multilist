@@ -1,6 +1,6 @@
 `multilist` is a Rust data structure that represents an *intrusive set of doubly-linked lists*, indexed by
 number. Objects owned by the multilist can belong to any number of the constituent linked lists. Only one
-allocation is used per object.
+allocation is used per object, regardless of the number of lists it is in.
 
 When first adding an object (e.g. via `push_back()`), you choose which linked list it is to initially belong
 to. You can then find it with an iterator and add it to other lists via `push_back_existing()`. Objects can
